@@ -2,9 +2,9 @@ var minesgrid=[];
 var minescountgrid=[];
 var minesoppenedgrid=[];
 var height,width;
-var mines=10;
-height=20;
-width=20;
+var mines=14;
+height=10;
+width=10;
 var isStarted=false;
 createGrid(height,width);
 
