@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+  background-color: #283149;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.set {
+  margin: 20px auto;
+  display: grid;
+  gap:2px;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.btnbox {background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%)}
+.btnbox {
+  margin: 0px;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  padding: 0px;
+  outline: none;
+  font-size: 10px;
+  width: 20px;
+   height: 20px;
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+ }
+
+ .btnbox:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
